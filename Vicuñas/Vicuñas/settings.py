@@ -82,7 +82,7 @@ DATABASES = {
         'NAME': 'Vicuñas',
         'USER': '',
         'PASSWORD': '',
-        'HOST': 'DESKTOP-TTI634J\SQLEXPRESS',
+        'HOST': r'ALAN\SQLEXPRESS',
         #'PORT': '',
         'OPTIONS': {
             'driver': 'ODBC Driver 17 for SQL Server',

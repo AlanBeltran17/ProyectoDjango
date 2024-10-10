@@ -62,6 +62,11 @@ class Comentario(models.Model):
         help_text='Fecha del comentario'
     )
 
+    comentario = models.TextField(
+        help_text='Describa su comentario',
+        null = True  # Permite valores nulos
+    )
+
     # Cambia el IntegerField a CharField con opciones limitadas
     ESTADO_CHOICES = [
         ('solucionado', 'Solucionado'),

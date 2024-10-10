@@ -25,7 +25,7 @@ class MantenimientoAdmin(admin.ModelAdmin):
 # Registro del modelo Comentario
 @admin.register(Comentario)
 class ComentarioAdmin(admin.ModelAdmin):
-    list_display = ('id_comentario', 'fecha', 'estado', 'id_laboratorio')
+    list_display = ('id_comentario', 'fecha', 'comentario', 'estado', 'id_laboratorio')
     list_filter = ('estado', 'id_laboratorio')
     search_fields = ('id_laboratorio__nombre_laboratorio',)
 
